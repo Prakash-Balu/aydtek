@@ -14,31 +14,17 @@ Template Name: Clients Template
 					<h4 class="text-center text-uppercase">Our Clients</h4>
 					<div class="container service_content_container">
 						<div class="row">
-							<div class="col-sm-4">
-								<p class="text-center">ABC Company</p>
-								<img class="img-responsive" src="<?php echo get_template_directory_uri().'/images/services/web.jpg'?>">
+							<div class="col-sm-6 client-content">
+								<h4 class="text-center">Syrainfotek Pvt Ltd</h4>
+								<p class="text-center">Georgia, USA</p>
 							</div>
-							<div class="col-sm-4">
-								<p class="text-center">ABC Company</p>
-								<img class="img-responsive" src="<?php echo get_template_directory_uri().'/images/services/web.jpg'?>">
+							<div class="col-sm-6 client-content">
+								<h4 class="text-center">Soque Tek pvt Ltd</h4>
+								<p class="text-center">Trivandrum, India</p>
 							</div>
-							<div class="col-sm-4">
-								<p class="text-center">ABC Company</p>
-								<img class="img-responsive" src="<?php echo get_template_directory_uri().'/images/services/web.jpg'?>">
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-4">
-								<p class="text-center">ABC Company</p>
-								<img class="img-responsive" src="<?php echo get_template_directory_uri().'/images/services/web.jpg'?>">
-							</div>
-							<div class="col-sm-4">
-								<p class="text-center">ABC Company</p>
-								<img class="img-responsive" src="<?php echo get_template_directory_uri().'/images/services/web.jpg'?>">
-							</div>
-							<div class="col-sm-4">
-								<p class="text-center">ABC Company</p>
-								<img class="img-responsive" src="<?php echo get_template_directory_uri().'/images/services/web.jpg'?>">
+							<div class="col-sm-6 col-sm-offset-3 client-content">
+								<h4 class="text-center">SSS Consultants</h4>
+								<p class="text-center">Chennai, India</p>
 							</div>
 						</div>
 					</div>

@@ -64,7 +64,7 @@
 		<?php if( curPageURL() ===  home_url( '/about' )) : sydney_about_slider_template(); ?><?php endif; ?>
 		<?php if( curPageURL() ===  home_url( '/services' )) : sydney_service_slider_template(); ?><?php endif; ?>
 		<?php if( curPageURL() ===  home_url( '/clients' ) ) : ?> <div class="client-header-image">
-			<img class="header-inner" src="<?php echo get_template_directory_uri().'/images/client-banner.jpg'; ?>" width="100%" alt="<?php bloginfo('name'); ?>" title="<?php bloginfo('name'); ?>">
+			<img class="header-inner img-responsive" src="<?php echo get_template_directory_uri().'/images/client-banner.jpg'; ?>" width="100%" alt="<?php bloginfo('name'); ?>" title="<?php bloginfo('name'); ?>">
 		</div>
 		<?php endif; ?>
 		<?php if( curPageURL() ===  home_url( '/contact' ) ) : ?> <div class="header-image contact-header-image">
