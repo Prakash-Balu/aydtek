@@ -14,19 +14,13 @@ Template Name: Contact Template
 <div class="col-sm-12 contact-wrapper">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6 col-md-offset-3">
-				<div class="well well-sm">
+			<div class="col-md-6">
 				<form class="contact-form" action="" method="post">
 				<fieldset>
 					<legend class="text-center">GET IN TOUCH</legend>
-
-					<div class="input-group">
-  <span class="input-group-addon" id="basic-addon1">@</span>
-  <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
-</div>
-			
+		
 					<!-- Name input-->
-					<div class="form-group">
+					<div class="form-group form-element">
 					<label class="col-md-3 control-label" for="name">Name</label>
 					<div class="col-md-9">
 						<input id="name" name="name" type="text" placeholder="Your name" class="form-control">
@@ -34,7 +28,7 @@ Template Name: Contact Template
 					</div>
 			
 					<!-- Email input-->
-					<div class="form-group">
+					<div class="form-group form-element">
 					<label class="col-md-3 control-label" for="email">Your E-mail</label>
 					<div class="col-md-9">
 						<input id="email" name="email" type="text" placeholder="Your email" class="form-control">
@@ -42,7 +36,7 @@ Template Name: Contact Template
 					</div>
 			
 					<!-- Message body -->
-					<div class="form-group">
+					<div class="form-group form-element">
 					<label class="col-md-3 control-label" for="message">Your message</label>
 					<div class="col-md-9">
 						<textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
@@ -51,13 +45,12 @@ Template Name: Contact Template
 			
 					<!-- Form actions -->
 					<div class="form-group">
-					<div class="col-md-12 text-right">
+					<div class="col-md-12 text-right form-btn">
 						<button type="submit" class="btn btn-primary btn-lg">Submit</button>
 					</div>
 					</div>
 				</fieldset>
 				</form>
-				</div>
 			</div>
 			<div class="col-md-6">
 				<ul class="contact-icons list-unstyled">

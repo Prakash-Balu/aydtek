@@ -445,6 +445,14 @@ Content
     height: 100%;
 }
 
+.form-element {
+    padding-bottom: 30px;
+}
+
+.form-btn {
+    padding-top: 20px;
+}
+
 .client-content {
     border-radius: 14px 109px;
     border: solid;
